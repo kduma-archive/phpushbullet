@@ -1,9 +1,9 @@
 <?php
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Subscriber\Mock;
-use GuzzleHttp\Message\Response;
-use GuzzleHttp\Subscriber\History;
+use GuzzleHttp5\Client;
+use GuzzleHttp5\Subscriber\Mock;
+use GuzzleHttp5\Message\Response;
+use GuzzleHttp5\Subscriber\History;
 use PHPushbullet\PHPushbullet;
 
 class PHPushbulletTestBase extends PHPUnit_Framework_TestCase {

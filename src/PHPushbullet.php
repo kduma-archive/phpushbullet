@@ -15,7 +15,7 @@ class PHPushbullet
     /**
 	 * An instance of the Guzzle client to make requests
 	 *
-	 * @var \GuzzleHttp\Client $api
+	 * @var \GuzzleHttp5\Client $api
 	 */
     protected $api;
 

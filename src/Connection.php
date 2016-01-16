@@ -25,12 +25,12 @@ class Connection
     /**
 	 * Get the Guzzle client with defaults
 	 *
-	 * @return \GuzzleHttp\Client
+	 * @return \GuzzleHttp5\Client
 	 */
 
     public function __construct($access_token)
     {
-        $this->client = new \GuzzleHttp\Client([
+        $this->client = new \GuzzleHttp5\Client([
                                     'base_url' => [
                                                     $this->base_url,
                                                     ['version' => $this->version],
